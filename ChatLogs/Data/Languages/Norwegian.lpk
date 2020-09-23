@@ -1,0 +1,167 @@
+[frmAbout]
+Caption = "Om ..."
+cmdOK.Caption = "&OK"
+lblDisclaimer.Caption = "Dette programmet er laget av Kristian S. Stangeland og er beskyttet av GPL-lisensen."
+
+[frmAddFilter]
+Caption = "Legg til filter"
+cmbFilterType.Clear
+cmbOperation.Clear
+cmbFilterType.AddItem "Datoperiode"
+cmbFilterType.AddItem "Tidsperiode"
+cmbFilterType.AddItem "Avsenderlikhet"
+cmbFilterType.AddItem "Mottakerlikhet"
+cmbFilterType.AddItem "Tekstlikhet"
+cmbOperation.AddItem "Inkluder"
+cmbOperation.AddItem "Eksluder"
+chkUsePattern.Caption = "&Bruk mønster"
+cmdCancel.Caption = "&Avbryt"
+cmdOK.Caption = "&Ok"
+lblOperation.Caption = "&Inkluder/ekskluder:"
+lblValueTwo.Caption = "V&erdi to: "
+lblValueOne.Caption = "&Verdi èn: "
+lblFilterTyoe.Caption = "&Filtertype: "
+
+[frmBrowse]
+Caption = "Bla etter mappen"
+chkAddSubfolders.Caption = "&Søk innunder undermapper"
+cmdOK.Caption = "&Ok"
+cmdCancel.Caption = "&Avbryt"
+
+[frmExport]
+Caption = "Eksportdialog"
+cmdCancel.Caption = "Avbry&t"
+cmdExport.Caption = "&Eksport"
+frameLocation.Caption = "Lo&kasjon:"
+cmdBrowse.Caption = "&Bla gjennom ..."
+lblFolder.Caption = "M&appe: "
+lblFileType.Caption = "&Filtype:"
+frameArchiving.Caption = "&Arkivering:"
+chkYears.Caption = "A&rkiver etter år"
+chkMonths.Caption = "Ark&iver etter måneder"
+chkWeeks.Caption = "&Arkiver etter uker"
+
+[frmFilter]
+Caption = "Filter"
+cmdRemoveFilter.Caption = "&Fjern filter"
+cmdAddFilter.Caption = "&Legg til filter"
+cmdOk.Caption = "&Ok"
+
+[frmMain]
+Caption = "Chat Logs"
+cmdToolbar(0).ToolTipText = "Åpne fil"
+cmdToolbar(1).ToolTipText = "Åpne mappe"
+cmdToolbar(2).ToolTipText = "Eksporter til fil(er)"
+cmdToolbar(3).ToolTipText = "Nullstill"
+cmdToolbar(4).ToolTipText = "Søk etter"
+cmdToolbar(5).ToolTipText = "Kallenavnliste"
+cmdToolbar(6).ToolTipText = "Brukerliste"
+cmdToolbar(7).ToolTipText = "Sesjonliste"
+cmdToolbar(8).ToolTipText = "Tidsdiagram"
+cmdToolbar(9).ToolTipText = "Ordteller"
+cmdToolbar(10).ToolTipText = "Alternativer"
+mnuFile.Caption = "&Fil"
+mnuLoadFile.Caption = "&Åpne fil"
+mnuLoadFolder.Caption = "Å&pne mappe"
+mnuExport.Caption = "&Eksport ..."
+mnuClear.Caption = "&Nullstill"
+mnuClone.Caption = "&Dupliser"
+mnuPrint.Caption = "&Print ut"
+mnuExit.Caption = "&Avslutt"
+mnuView.Caption = "&Vis"
+mnuNickList.Caption = "&Kallenavnliste"
+mnuSessionList.Caption = "&Sesjonliste"
+mnuUserList.Caption = "&Brukerliste"
+mnuTools.Caption = "&Verktøy"
+mnuSearch.Caption = "Søk etter"
+mnuTimeChart.Caption = "&Tidsdiagram"
+mnuWordCount.Caption = "&Ordteller"
+mnuOptions.Caption = "&Alternativer ..."
+mnuHelp.Caption = "Hjelp"
+mnuAbout.Caption = "Om"
+
+[frmMessageList]
+Caption = "Meldingsliste"
+# ChatApp.AddColumns Form.lstMessages, "MessageDate", "Meldingsdato", "Sender", "Avsender", "Receiver", "Mottager", "Message", "Melding"
+
+[frmNickList]
+Caption = "Kallenavnliste"
+# ChatApp.AddColumns Form.lstNicks, "Nickname", "Kallenavn", "Email", "Epost", "Used", "Antall forekomster"
+
+[frmSearch]
+Caption = "Søk etter"
+chkIgnoreCase.Caption = "&Ignorer bokstavstørrelse"
+chkPatternMatch.Caption = "&Bruk mønsterkorrespondering"
+cmdHelp.Caption = "&Hjelp"
+cmdCancel.Caption = "&Avbryt"
+cmdFind.Caption = "&Finn"
+lblReciever.Caption = "&Mottager:"
+lblSender.Caption = "&Avsender:"
+lblToDate.Caption = "&Til dato/tid:"
+lblFromDate.Caption = "&Fra dato/tid:"
+lblSearchString.Caption = "&Finn: "
+
+[frmSession]
+Caption = "Sesjon"
+lblConversation.Caption = "&Konversasjon:"
+lblParticipants.Caption = "&Deltagere:"
+lblSessionDate.Caption = "&Sesjondato:"
+
+[frmSessionList]
+Caption = "Sesjonliste"
+# ChatApp.AddColumns Form.lstSessions, "SessionDate", "Sesjondato", "Participants", "Deltagere", "Events", "Hendelser"
+cmdTimeChart.Caption = "&Tidsdiagram"
+cmdFilter.Caption = "&Filter"
+lblDateTo.Caption = "Inntil: "
+lblDateFrom.Caption = "Fra:"
+
+[frmSettings]
+Caption = "Alternativer"
+# ChatApp.AddColumns Form.lstPlugins, "Name", "Navn", "Author", "Forfatter", "Description", "Beskrivelse"
+cmdCancel.Caption = "&Avbryt"
+cmdOK.Caption = "&OK"
+cmdUse.Caption = "&Bruk"
+stSettings.TabCaption(0) = "Generell"
+stSettings.TabCaption(1) = "Tillegg"
+frameAdmin.Caption = "&Administrer tillegg"
+cmdConfigure.Caption = "&Konfigurer"
+frameLanguage.Caption = "Språk:"
+lblChooseLanguage.Caption = "&Velg språkpakke:"
+
+[frmTimeChart]
+Caption = "Tidsdiagram"
+lblTimeChart.Caption = "Dette er tidsdiagramet for ditt lynmeldingsforbuk:"
+lblViewPlotBy.Caption = "&Vis diagram etter:"
+
+[frmUserList]
+Caption = "User list"
+# ChatApp.AddColumns Form.lstUsers, "NickName", "Kallenavn", "Email", "Epost", "Sessions", "Sesjoner", "Initiator", "Initiativtager", "ART", "Gjennomsnitlig responstid"
+
+[frmWordCount]
+Caption = "Ordteller"
+# ChatApp.AddColumns Form.lstWords, "Word", "Ord", "Occurrences", "Forekomster"
+cmdClose.Caption = "&Lukk"
+cmdFilters.Caption = "&Filter"
+cmdSearch.Caption = "&Søk"
+lblUnique.Caption = "&Antall unike ord: "
+
+[Constants]
+AllSessions = "Alle sesjoner"
+ErrComCTL = "Kunne ikke laste filen 'comctl32.dll'"
+SessionsWith = "Sesjoner med "
+ChooseExport = "Velg en mappe å eksportere til "
+FolderBrowseText = "Velg en mappe å importere filer ifra"
+FilterInclude = "Inkluder"
+FilterExclude = "Eksluder"
+FilterCaption = "Legg til filter"
+FilterTime = "tid"
+FilterDate = "dato"
+FilterSender = "avsender"
+FilterReceiver = "mottager"
+FilterWhen = " når "
+FilterPattern = " korresponderer til mønsteret "
+FilterIsBetween = " er mellom "
+FilterCorrespond = " korresponderer til "
+FilterAnd = " og "
+FilterTextPattern = " når teksten korresponderer til mønsteret "
+FilterTextCorrespond = " når teksten korresponderer til "

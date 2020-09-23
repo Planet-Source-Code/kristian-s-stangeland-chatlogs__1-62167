@@ -1,0 +1,167 @@
+[frmAbout]
+Caption = "About ..."
+cmdOK.Caption = "&OK"
+lblDisclaimer.Caption = "This program is made by Kristian S. Stangeland and is licenced under the GPL-licence."
+
+[frmAddFilter]
+Caption = "Add a filter"
+cmbFilterType.Clear
+cmbOperation.Clear
+cmbFilterType.AddItem "DatePeriod"
+cmbFilterType.AddItem "TimePeriod"
+cmbFilterType.AddItem "SenderMatch"
+cmbFilterType.AddItem "ReceiverMatch"
+cmbFilterType.AddItem "TextMatch"
+cmbOperation.AddItem "Include"
+cmbOperation.AddItem "Exclude"
+chkUsePattern.Caption = "&Use pattern"
+cmdCancel.Caption = "&Cancel"
+cmdOK.Caption = "&Ok"
+lblOperation.Caption = "&Include/Exclude:"
+lblValueTwo.Caption = "V&alue two: "
+lblValueOne.Caption = "&Value one: "
+lblFilterTyoe.Caption = "&Filter type: "
+
+[frmBrowse]
+Caption = "Browse for folder"
+chkAddSubfolders.Caption = "&Add subfolders"
+cmdOK.Caption = "&Ok"
+cmdCancel.Caption = "&Cancel"
+
+[frmExport]
+Caption = "Export Dialog"
+cmdCancel.Caption = "Cance&l"
+cmdExport.Caption = "&Export"
+frameLocation.Caption = "Lo&cation:"
+cmdBrowse.Caption = "&Browse"
+lblFolder.Caption = "F&older: "
+lblFileType.Caption = "&File type:"
+frameArchiving.Caption = "&Archiving:"
+chkYears.Caption = "A&rchive by years"
+chkMonths.Caption = "Arc&hive by months"
+chkWeeks.Caption = "&Archi&ve by weeks"
+
+[frmFilter]
+Caption = "Filters"
+cmdRemoveFilter.Caption = "&Remove Filter"
+cmdAddFilter.Caption = "&Add filter"
+cmdOk.Caption = "&Ok"
+
+[frmMain]
+Caption = "Chat Log"
+cmdToolbar(0).ToolTipText = "Open file"
+cmdToolbar(1).ToolTipText = "Open folder"
+cmdToolbar(2).ToolTipText = "Export to file(s)"
+cmdToolbar(3).ToolTipText = "Clear all"
+cmdToolbar(4).ToolTipText = "Search"
+cmdToolbar(5).ToolTipText = "Nick list"
+cmdToolbar(6).ToolTipText = "User list"
+cmdToolbar(7).ToolTipText = "Session list"
+cmdToolbar(8).ToolTipText = "Time chart"
+cmdToolbar(9).ToolTipText = "Word count"
+cmdToolbar(10).ToolTipText = "Options"
+mnuFile.Caption = "&File"
+mnuLoadFile.Caption = "&Load file"
+mnuLoadFolder.Caption = "&Load folder"
+mnuExport.Caption = "&Export ..."
+mnuClear.Caption = "&Clear all"
+mnuClone.Caption = "&Clone"
+mnuPrint.Caption = "&Print"
+mnuExit.Caption = "&Exit"
+mnuView.Caption = "&View"
+mnuNickList.Caption = "&Nick list"
+mnuSessionList.Caption = "&Session list"
+mnuUserList.Caption = "&User list"
+mnuTools.Caption = "&Tools"
+mnuSearch.Caption = "Search"
+mnuTimeChart.Caption = "&Time Chart"
+mnuWordCount.Caption = "&Word Count"
+mnuOptions.Caption = "&Options ..."
+mnuHelp.Caption = "Help"
+mnuAbout.Caption = "About"
+
+[frmMessageList]
+Caption = "Message list"
+# ChatApp.AddColumns Form.lstMessages, "MessageDate", "Message date", "Sender", "Sender", "Receiver", "Receiver", "Message", "Message"
+
+[frmNickList]
+Caption = "Nick List"
+# ChatApp.AddColumns Form.lstNicks, "NickName", "NickName", "Email", "Email", "Used", "Nickname used"
+
+[frmSearch]
+Caption = "Find"
+chkIgnoreCase.Caption = "&Ignore Case"
+chkPatternMatch.Caption = "&Use Pattern Matching"
+cmdHelp.Caption = "&Help"
+cmdCancel.Caption = "&Cancel"
+cmdFind.Caption = "&Find"
+lblReciever.Caption = "&Receiver:"
+lblSender.Caption = "&Sender:"
+lblToDate.Caption = "&To date/time:"
+lblFromDate.Caption = "&From date/time:"
+lblSearchString.Caption = "&Find: "
+
+[frmSession]
+Caption = "Session"
+lblConversation.Caption = "&Conversation:"
+lblParticipants.Caption = "&Participants:"
+lblSessionDate.Caption = "&Session date:"
+
+[frmSessionList]
+Caption = "Session list"
+# ChatApp.AddColumns Form.lstSessions, "SessionDate", "Session date", "Participants", "Participants", "Events", "Events"
+cmdTimeChart.Caption = "&Time Chart"
+cmdFilter.Caption = "&Filter"
+lblDateTo.Caption = "Until: "
+lblDateFrom.Caption = "From:"
+
+[frmSettings]
+Caption = "Settings"
+# ChatApp.AddColumns Form.lstPlugins, "Name", "Name", "Author", "Author", "Description", "Description"
+cmdCancel.Caption = "&Cancel"
+cmdOK.Caption = "&OK"
+cmdUse.Caption = "&Use"
+stSettings.TabCaption(0) = "General"
+stSettings.TabCaption(1) = "Plugins"
+frameAdmin.Caption = "&Manage plugins"
+cmdConfigure.Caption = "&Configure"
+frameLanguage.Caption = "Language:"
+lblChooseLanguage.Caption = "&Choose language:"
+
+[frmTimeChart]
+Caption = "Time Chart"
+lblTimeChart.Caption = "This is the timeline chart of your Instant Messaging usage"
+lblViewPlotBy.Caption = "&View plot by:"
+
+[frmUserList]
+Caption = "User list"
+# ChatApp.AddColumns Form.lstUsers, "NickName", "NickName", "Email", "Email", "Sessions", "Sessions", "Initiator", "Initiator", "ART", "Average Response Time"
+
+[frmWordCount]
+Caption = "Word Count"
+# ChatApp.AddColumns Form.lstWords, "Word", "Word", "Occurrences", "Occurrences"
+cmdClose.Caption = "&Close"
+cmdFilters.Caption = "&Filters"
+cmdSearch.Caption = "&Search"
+lblUnique.Caption = "&Unique words: "
+
+[Constants]
+AllSessions = "All sessions"
+ErrComCTL = "Could not load comctl32.dll"
+SessionsWith = "Sessions with "
+ChooseExport = "Choose a folder to export to"
+FilterInclude = "Include"
+FilterExclude = "Exclude"
+FilterCaption = "Add a filter"
+FolderBrowseText = "Select the folder to import"
+FilterTime = "time"
+FilterDate = "date"
+FilterSender = "sender"
+FilterReceiver = "receiver"
+FilterWhen = " when "
+FilterPattern = " matches the pattern "
+FilterIsBetween = " is between "
+FilterCorrespond = " correspond to "
+FilterAnd = " and "
+FilterTextPattern = " when the text matches the pattern "
+FilterTextCorrespond = " when the text correspond to "

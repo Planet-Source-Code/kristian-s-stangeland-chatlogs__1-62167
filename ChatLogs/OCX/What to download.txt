@@ -1,0 +1,19 @@
+WHICH FILES IS NEEDED?
+
+You must download SSubTmr6.dll, TABCTL32.OCX and vbaListView6.ocx to make this 
+application work correctly (links at the end of this file), and thereafter
+register the files with Setup.bat. Preferably the files (and the bat-file)
+should be put in the System/System32-folder within the Windows-folder.
+
+Links to the files needed:
+http://www.vbaccelerator.com/home/VB/Code/Libraries/Subclassing/SSubTimer/VB6_SSubTmr_Binary.asp
+http://www.vbaccelerator.com/home/VB/Code/Controls/ListView/VB6_ListView_Control.asp
+http://www.ascentive.com/support/new/support_dll.phtml?dllname=TABCTL32.OCX
+
+
+WHY NOT INCLUDE THE FILES IN THE SUBMISSION?
+
+Unfortunately, this isn't allowed according to the rules set by PCC. All submissions
+must be free for all EXE, DLL and OCX-files. I could of course rename the files in question
+to something else, and then make the BAT-file to rename the files back again, but this would
+still be against the rule.
