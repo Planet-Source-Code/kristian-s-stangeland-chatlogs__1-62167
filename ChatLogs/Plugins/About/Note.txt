@@ -1,0 +1,1 @@
+Note: To compile this plugin, you need to extract the zip-file and reference the content to the project.
